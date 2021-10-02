@@ -55,7 +55,6 @@ function generatePassword() {
     var randomNumber = Math.floor(Math.random() * totalPasswordCharacters.length);
     generatedPassword += totalPasswordCharacters.charAt(randomNumber);
   }
-  ß
 
   return generatedPassword
 }
